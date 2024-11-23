@@ -1,0 +1,6 @@
+days=int(input("enter the number of days for the trip:"))
+plane=int(input("enter the cost of the plane ticket:"))
+vehicle=int(input("enter the cost of the vehicle rent:"))
+acc=150*days
+total_cost=+plane+vehicle+acc
+print("the total cost of the trip is",total_cost)
